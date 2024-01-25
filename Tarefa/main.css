@@ -35,19 +35,28 @@ a {
     grid-template-columns: 0% 30%;
 }*/
 
-article > h3{
+h3{
     border-bottom: 2.5px solid blue;
     padding-bottom: 10px;
 }
 
 .sobre-loja{
     display: grid;
-    grid-template-columns: 43% 55%;
-
+    grid-template-columns: 20% 68%;
+    column-gap: 12%;
+    padding-bottom: 60px;
 }
+
 .sobre-loja p{
     padding: 30 0;
     text-align: justify;
     margin-top: 50px;
+}
+.produtos{
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,22.75%);
+    column-gap: 3%;
+    
 }
 
