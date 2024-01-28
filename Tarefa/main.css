@@ -96,6 +96,49 @@ button{
     background-color: rgba(54, 54, 215, 0.958);
     color: white;
     font: bold 16px Arial, sans-serif;
-
 }
 
+@media screen and (min-width: 641px) and (max-width:1023px) {
+    .container .sobre-loja{
+        max-width: 1023px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        
+    }
+   div.container{
+        max-width: 100%;
+
+    }
+    .sobre-loja{
+        text-align: center;
+        width: 100%; 
+    }
+    h3{
+        text-align: left;
+
+    }
+
+    img{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .container .sobre-loja img{
+        align-items: center;
+        width: 100%;
+    }
+    div.produtos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        column-gap: 2%;
+        row-gap: 0%;
+        align-items: center;
+    }
+    article.produto{
+        row-gap: 5%;
+    }
+}
+@media screen and (max-width:640px){
+
+} 
