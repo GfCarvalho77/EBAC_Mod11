@@ -19,8 +19,8 @@ header .container a{
     color: white;
 }
 header {
-    padding:  0 0;
-    background-color: blue;
+    padding: 0;
+    background-color: rgba(54, 54, 215, 0.958);
     margin-bottom: 35px;
     width: 100%;
 }
@@ -28,6 +28,8 @@ header {
 
 a {
     padding-right: 15px;
+    font: italic 15px Arial, sans-serif;
+    font-weight: bold;
 
 }
 /*.sobre-loja{
@@ -35,9 +37,28 @@ a {
     grid-template-columns: 0% 30%;
 }*/
 
+h1{
+    font: italic 30px Arial, sans-serif;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+
+h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+}
 h3{
-    border-bottom: 2.5px solid blue;
+    border-bottom: 2.5px solid rgba(54, 54, 215, 0.958);;
     padding-bottom: 10px;
+}
+
+p{
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: justify;
 }
 
 .sobre-loja{
@@ -60,7 +81,21 @@ h3{
     column-gap: 3%;
     
 }
+.produto{
+    padding-top: 45px;
+}
 .produto img{
     width: 100%;
+    padding-bottom: 25px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(54, 54, 215, 0.958);
+    color: white;
+    font: bold 16px Arial, sans-serif;
+
 }
 
